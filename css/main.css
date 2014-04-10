@@ -1,0 +1,57 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600&subset=latin,latin-ext);
+
+body {
+	font-size: 16px;
+	font-family: Open Sans;
+	font-weight: 300;
+	line-height: 40px;
+}
+
+.past-event {
+	color: gray;
+	text-decoration: line-through;
+}
+
+a {
+		color: #1485CC;
+	font-style: normal;
+}
+
+.columned {
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+	-webkit-column-gap: 30px;
+	-moz-column-gap: 30px;
+	column-gap: 30px;
+}
+
+.jumbotron h1 {
+	color: #1485CC;
+	font-weight: 300;
+}
+
+.columned h2 {
+	margin: 0 0 5px 0;
+	font-size: 16px;
+}
+
+.columned ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.columned li {
+	border-bottom: 1px dotted rgba(0, 0, 0, 0.1);
+	font-style: italic;
+}
+
+div.keepblock {
+   display: inline-block;
+   width: 100%;
+}
+
+.description {
+	font-size: 12px;
+	line-height: 16px;
+}
