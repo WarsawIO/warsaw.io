@@ -5,6 +5,7 @@ body {
 	font-family: Open Sans;
 	font-weight: 300;
 	line-height: 40px;
+	padding-bottom: 20px;
 }
 
 .past-event {
@@ -29,6 +30,12 @@ a {
 .jumbotron h1 {
 	color: #1485CC;
 	font-weight: 300;
+}
+
+.jumbotron .fork-me {
+	position: absolute;
+	right: 0;
+	top: 0;
 }
 
 .columned h2 {
