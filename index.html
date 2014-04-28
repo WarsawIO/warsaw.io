@@ -28,7 +28,16 @@
           </div>
         </div>
 
-        <div class="container columned">
+        <div class="container">
+          <ul class="nav nav-tabs">
+            <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+            <li><a href="#influencers" data-toggle="tab">Influencers</a></li>
+          </ul>
+        </div>
+
+        <div class="container tab-content">
+          <div class="tab-pane active" id="home">
+          <div class="columned">
           <div>
             <h2><span class="fa fa-calendar"></span> Meetups calendars</h2>
             <ul>
@@ -108,34 +117,6 @@
             </ul>
           </div>
           <div>
-            <h2><span class="fa fa-user"></span> Influencers</h2>
-            <ul>
-              <li><a href="http://erbetowski.pl">Wojtek Erbetowski</a></li>
-              <li>Jarek Potiuk</li>
-              <li><a href="http://sitarska.com/">Ola Sitarska</a> <a href="https://twitter.com/olasitarska"><i class="fa fa-twitter"></i></a></li>
-              <li>Przemysław Lewandowski</li>
-              <li><a href="https://twitter.com/konradhalas/">Konrad Hałas</a></li>
-              <li>Krzysztof Siejkowski</li>
-              <li>Michał Lewandowski</li>
-              <li><a href="http://leafnode.pl/">Leszek Krupiński</a> <a href="https://twitter.com/leafnode/"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="http://blog.kurasinski.com/">Artur Kurasiński</a> <a href="https://twitter.com/kurasinski"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="https://twitter.com/mchyzynska">Magdalena Ostoja-Chyżyńska</a></li>
-              <li><a href="http://sawicki.nu">Maciej Sawicki</a> <a href="https://twitter.com/viroos"><i class="fa fa-twitter"></i></a></li>
-              <li>Tomasz Szymański</li>
-              <li>Kuba Kucharski <a href="https://twitter.com/83TB"><i class="fa fa-twitter"></i></a></li>
-              <li>Piotr Szotkowski</li>
-              <li>Barbara Pietraszewska</li>
-              <li>Piotr Betkier</li>
-              <li><a href="http://solidcraft.eu">Jakub Nabrdalik</a></li>
-              <li><a href="https://github.com/kamilszymanski">Kamil Szymański</a> <a href="https://twitter.com/kszdev"><i class="fa fa-twitter"></i></a></li>
-              <li>Dariusz Kaczyński <a href="https://twitter.com/dkaczynski"><i class="fa fa-twitter"></i></a></li>
-              <li>Marek Kirejczyk <a href="https://twitter.com/marekkirejczyk"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="http://borys.musielak.eu/">Borys Musielak</a> <a href="https://twitter.com/michuk"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="http://czerski.info/">Paweł Czerski</a> <a href="https://twitter.com/czerskip"><i class="fa fa-twitter"></i></a></li>
-              <li>...</li>
-            </ul>
-          </div>
-          <div>
             <h2><span class="fa fa-globe"></span> Media</h2>
             <ul>
               <li>...</li>
@@ -147,7 +128,41 @@
           <div class="keepblock description">
             Here should be description of the project. Feel free to fill this space with something more than a typical jibber-jabber typed just to fill space and see how it flows through the page.
           </div>
-        </div> <!-- /container -->
+          </div> <!-- .columned -->
+          </div> <!-- .tab-pane -->
+          <div class="tab-pane" id="influencers">
+          <div class="columned">
+          <div>
+            <h2><span class="fa fa-user"></span> Influencers</h2>
+            <ul>
+              <li><a href="http://blog.kurasinski.com/">Artur Kurasiński</a> <a href="https://twitter.com/kurasinski"><i class="fa fa-twitter"></i></a></li>
+              <li>Barbara Pietraszewska</li>
+              <li><a href="http://borys.musielak.eu/">Borys Musielak</a> <a href="https://twitter.com/michuk"><i class="fa fa-twitter"></i></a></li>
+              <li>Dariusz Kaczyński <a href="https://twitter.com/dkaczynski"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="http://solidcraft.eu">Jakub Nabrdalik</a></li>
+              <li>Jarek Potiuk</li>
+              <li><a href="https://github.com/kamilszymanski">Kamil Szymański</a> <a href="https://twitter.com/kszdev"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://twitter.com/konradhalas/">Konrad Hałas</a></li>
+              <li>Krzysztof Siejkowski</li>
+              <li>Kuba Kucharski <a href="https://twitter.com/83TB"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="http://leafnode.pl/">Leszek Krupiński</a> <a href="https://twitter.com/leafnode/"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="http://sawicki.nu">Maciej Sawicki</a> <a href="https://twitter.com/viroos"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://twitter.com/mchyzynska">Magdalena Ostoja-Chyżyńska</a></li>
+              <li>Marek Kirejczyk <a href="https://twitter.com/marekkirejczyk"><i class="fa fa-twitter"></i></a></li>
+              <li>Michał Lewandowski</li>
+              <li><a href="http://sitarska.com/">Ola Sitarska</a> <a href="https://twitter.com/olasitarska"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="http://czerski.info/">Paweł Czerski</a> <a href="https://twitter.com/czerskip"><i class="fa fa-twitter"></i></a></li>
+              <li>Piotr Betkier</li>
+              <li>Piotr Szotkowski</li>
+              <li>Przemysław Lewandowski</li>
+              <li>Tomasz Szymański</li>
+              <li><a href="http://erbetowski.pl">Wojtek Erbetowski</a></li>
+              <li>...</li>
+            </ul>
+          </div>
+        </div> <!-- .columned -->
+        </div> <!-- .tab-pane -->
+        </div> <!-- .container -->
 
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
@@ -157,6 +172,8 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-49963542-1');ga('send','pageview');
         </script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
         <script src="js/main.js"></script>
     </body>
 </html>
