@@ -3,7 +3,6 @@ body {
 	font-family: Roboto;
 	font-weight: 300;
 	line-height: 40px;
-	padding-bottom: 20px;
 }
 
 .past-event a, .past-event a:hover {
@@ -80,4 +79,18 @@ img.twitter {
 	width: 64px;
 	height: 64px;
 	vertical-align: top;
+}
+
+footer {
+ 	background: rgba(0, 0, 0, 0.01);
+	margin: 30px 0 0 0;
+	padding: 30px 0;
+}
+
+footer span {
+	font-weight: 400;
+}
+footer a {
+	float: right;
+	margin: 0 30px;
 }
