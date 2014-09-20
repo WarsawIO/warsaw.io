@@ -1,8 +1,6 @@
-@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600&subset=latin,latin-ext);
-
 body {
 	font-size: 16px;
-	font-family: Open Sans;
+	font-family: Roboto;
 	font-weight: 300;
 	line-height: 40px;
 	padding-bottom: 20px;
@@ -27,15 +25,25 @@ a {
 	column-gap: 30px;
 }
 
+.jumbotron {
+	background: white;
+	font-size: 28px;
+	line-height: 44px;
+	padding: 70px 0;
+}
+
+.jumbotron .col-md-8 {
+	padding: 0 60px;
+}
+
 .jumbotron h1 {
 	color: #1485CC;
 	font-weight: 300;
 }
 
-.jumbotron .fork-me {
-	position: absolute;
-	right: 0;
-	top: 0;
+.jumbotron img {
+	max-width: 100%;
+	margin-top: 10px;
 }
 
 .nav-tabs {
